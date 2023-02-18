@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.74c9b781.css",
+    "main.js": "/static/js/main.eabbecce.js",
+    "static/js/787.7a51b52b.chunk.js": "/static/js/787.7a51b52b.chunk.js",
+    "static/media/bg-hero.jpg": "/static/media/bg-hero.c5addc1031cbbe860670.jpg",
+    "static/media/Heebo-Black.ttf": "/static/media/Heebo-Black.98dd262891719b8b4276.ttf",
+    "static/media/Heebo-ExtraBold.ttf": "/static/media/Heebo-ExtraBold.027b2d0d4056be6525ef.ttf",
+    "static/media/Heebo-Bold.ttf": "/static/media/Heebo-Bold.a7c705793c3c00f11242.ttf",
+    "static/media/Heebo-SemiBold.ttf": "/static/media/Heebo-SemiBold.575d913cf7b76c7fa41c.ttf",
+    "static/media/Heebo-Medium.ttf": "/static/media/Heebo-Medium.7ce8ba479cf83916ecea.ttf",
+    "static/media/Heebo-ExtraLight.ttf": "/static/media/Heebo-ExtraLight.130a3a54db7594dc647d.ttf",
+    "static/media/Heebo-Light.ttf": "/static/media/Heebo-Light.81b8083bf3a45d2b5559.ttf",
+    "static/media/Heebo-Regular.ttf": "/static/media/Heebo-Regular.4dbbe613d25d93d40f37.ttf",
+    "static/media/Heebo-Thin.ttf": "/static/media/Heebo-Thin.db17d96c220e8de661f4.ttf",
+    "index.html": "/index.html",
+    "main.74c9b781.css.map": "/static/css/main.74c9b781.css.map",
+    "main.eabbecce.js.map": "/static/js/main.eabbecce.js.map",
+    "787.7a51b52b.chunk.js.map": "/static/js/787.7a51b52b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74c9b781.css",
+    "static/js/main.eabbecce.js"
+  ]
+}

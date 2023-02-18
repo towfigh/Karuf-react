@@ -1,0 +1,88 @@
+/* ********* */
+/* Add Fonts */
+/* ********* */
+
+@font-face {
+	font-family: 'Heebo';
+	src: url('../fonts/Heebo-Thin.ttf');
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: 'Heebo';
+	src: url('../fonts/Heebo-ExtraLight.ttf');
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'Heebo';
+	src: url('../fonts/Heebo-Light.ttf');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Heebo';
+	src: url('../fonts/Heebo-Regular.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Heebo';
+	src: url('../fonts/Heebo-Medium.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Heebo';
+	src: url('../fonts/Heebo-SemiBold.ttf');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Heebo';
+	src: url('../fonts/Heebo-Bold.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Heebo';
+	src: url('../fonts/Heebo-ExtraBold.ttf');
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: 'Heebo';
+	src: url('../fonts/Heebo-Black.ttf');
+	font-weight: 900;
+}
+
+/* *********** */
+/* main styles */
+/* *********** */
+
+html,
+body {
+	width: 100%;
+	font-family: Heebo, sans-serif !important;
+}
+
+main {
+	background-color: rgb(249, 250, 251);
+}
+
+a,
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+.text-gray {
+	color: rgb(107, 114, 128);
+}
+
+.text-green {
+	color: #158c01;
+}
+
+@import './layout.scss';
+@import './privacy.scss';
