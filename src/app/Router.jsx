@@ -1,10 +1,11 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React, { Fragment } from 'react';
+import { Outlet, Route, Routes } from 'react-router-dom';
 
 import Footer from '../components/layouts/footer/Footer';
 import Header from '../components/layouts/header/Header';
 import Privacy from '../components/containers/privacy/Privacy';
 import About from '../components/containers/about/About';
+import ContactUs from '../components/containers/contact/ContactUs';
 
 const Router = () => {
 	return (
@@ -13,8 +14,19 @@ const Router = () => {
 			<main>
 				<div>
 					<Routes>
-						<Route exact path="/" element={<Privacy />} />
+						<Route
+							exact
+							path="/policy"
+							element={
+								<div className="bg-gray">
+									<Outlet />
+								</div>
+							}
+						>
+							<Route exact path="/policy" element={<Privacy />} />
+						</Route>
 						<Route path="/about" element={<About />} />
+						<Route path="/contact-us" element={<ContactUs />} />
 					</Routes>
 				</div>
 			</main>

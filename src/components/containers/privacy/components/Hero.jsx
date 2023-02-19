@@ -3,10 +3,10 @@ import React from 'react';
 const Hero = () => {
 	return (
 		<>
-			<div className="hero">
+			<div className="policy_hero">
 				<div className="row m-0">
 					<div className="col-12 col-lg-6 position-relative">
-						<div className="hero_title position-absolute text-light">
+						<div className="policy_hero_title position-absolute text-light">
 							<h1 className="fw-bold">Privacy & Policy</h1>
 							<h3 className="fw-normal">
 								Karuf's privacy makes it easy to find information on privacy
