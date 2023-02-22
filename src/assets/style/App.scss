@@ -86,6 +86,10 @@ a:hover {
 	color: rgb(107, 114, 128);
 }
 
+.text-gray-darker {
+	color: rgb(78, 83, 93);
+}
+
 .text-green {
 	color: #158c01;
 }
@@ -121,3 +125,4 @@ a:hover {
 
 @import './privacy.scss';
 @import './contact.scss';
+@import './terms.scss';
